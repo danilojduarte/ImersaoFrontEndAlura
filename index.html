@@ -9,7 +9,8 @@
       href="assets/icons/favicon.png"
       type="image/x-icon"
     />
-    <!-- Arquivo Css -->
+    <!-- Arquivos Css -->
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="styles.css" />
     <!-- Link Fontawesome -->
     <link
@@ -27,9 +28,10 @@
 
     <title>Imersão Alura - Front End</title>
   </head>
+
   <body>
     <div class="sidebar">
-      <nav>
+      <nav class="sidebar__navigation">
         <div class="logo">
           <a href="#">
             <img
@@ -37,21 +39,22 @@
               alt="Imagem do Logo do Spotify"
             />
           </a>
-          <div>
-            <ul>
-              <a href="#">
-                <span><i class="fa fa-home"></i></span>
-                <span>Início</span
-              ></a>
-            </ul>
-            <ul>
-              <a href="#">
-                <span><i class="fa fa-search"></i></span>
-                <span>Busca</span
-              ></a>
-            </ul>
-          </div>
         </div>
+
+        <ul>
+          <li>
+            <a href="#">
+              <span><i class="fa fa-home"></i></span>
+              <span>Início</span></a
+            >
+          </li>
+          <li>
+            <a href="#">
+              <span><i class="fa fa-search"></i></span>
+              <span>Busca</span></a
+            >
+          </li>
+        </ul>
       </nav>
     </div>
   </body>
